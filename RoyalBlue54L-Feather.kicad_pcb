@@ -4662,7 +4662,7 @@
 	(path "/afba2e77-7d9e-4367-9c41-10eb8f992cbf")
 	(sheetname "/")
 	(sheetfile "RoyalBlue54L-Feather.kicad_sch")
-	(attr smd exclude_from_bom dnp)
+	(attr smd exclude_from_pos_files exclude_from_bom dnp)
 	(fp_poly
 		(pts
 			(xy 2.260596 0.942001) (xy 2.262442 0.942141) (xy 2.26426 0.942373) (xy 2.26605 0.942693) (xy 2.267809 0.943099)
@@ -18805,7 +18805,7 @@
 	(path "/8da44f97-351a-4406-8e9e-4d7ed22845ad")
 	(sheetname "/")
 	(sheetfile "RoyalBlue54L-Feather.kicad_sch")
-	(attr exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
 		(start -7.25 7.25)
 		(end -6.75 6.75)
@@ -23914,7 +23914,7 @@
 	(path "/b280f472-530c-47a8-bd61-35bd1befbf04/8822ac4c-1db4-406a-80cc-b0a380a20564")
 	(sheetname "/nRF54L15/")
 	(sheetfile "sch/nRF54L15.kicad_sch")
-	(attr exclude_from_pos_files dnp)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
 		(end 0 -1.2)
@@ -24519,7 +24519,7 @@
 	(path "/b280f472-530c-47a8-bd61-35bd1befbf04/da188f97-ddb4-4024-b580-6d1bdcd416c9")
 	(sheetname "/nRF54L15/")
 	(sheetfile "sch/nRF54L15.kicad_sch")
-	(attr exclude_from_pos_files dnp)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
 		(end 0 -1.2)
@@ -24907,7 +24907,7 @@
 	(path "/b280f472-530c-47a8-bd61-35bd1befbf04/8f4ba958-792e-4db9-b6a2-e69a0fd5f004")
 	(sheetname "/nRF54L15/")
 	(sheetfile "sch/nRF54L15.kicad_sch")
-	(attr exclude_from_pos_files dnp)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
 		(end 0 -1.2)
