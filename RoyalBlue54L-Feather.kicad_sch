@@ -2547,7 +2547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RoyalBlue-nRF54L15-Symbol:RoyalBlue54L_QRCode"
+		(property "Footprint" "RoyalBlue54L-Feather-Symbol:RoyalBlue54L_QRCode"
 			(at 271.78 137.16 0)
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c"
 					(reference "LOGO1")
 					(unit 1)
@@ -2764,7 +2764,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c"
 					(page "5")
 				)
@@ -2848,7 +2848,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c"
 					(page "3")
 				)
@@ -2962,7 +2962,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c"
 					(page "4")
 				)
@@ -3036,7 +3036,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c"
 					(page "2")
 				)

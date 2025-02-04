@@ -3365,7 +3365,7 @@
 			(uuid "7b9c46b7-a0f1-4b34-b17d-144f80375fbd")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR06")
 					(unit 1)
@@ -3431,7 +3431,7 @@
 			(uuid "18cba1f5-2774-4c16-8439-d55aae12d321")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR05")
 					(unit 1)
@@ -3497,7 +3497,7 @@
 			(uuid "f7714c3e-9a80-417f-a368-e9ff9c9319f6")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR02")
 					(unit 1)
@@ -3563,7 +3563,7 @@
 			(uuid "cdb945ca-4b4d-4fd1-abb2-07411c97d144")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR04")
 					(unit 1)
@@ -3629,7 +3629,7 @@
 			(uuid "f3238896-5c3b-41c9-a73d-352b8d67458b")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR048")
 					(unit 1)
@@ -3715,7 +3715,7 @@
 			(uuid "142b7007-75e7-40a8-8c28-b6a60884d597")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "J5")
 					(unit 1)
@@ -3781,7 +3781,7 @@
 			(uuid "539dc263-9885-4e66-a521-2333be9b64f4")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR09")
 					(unit 1)
@@ -3847,7 +3847,7 @@
 			(uuid "202d6535-3850-4be9-973f-b9d7e6c52a61")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR01")
 					(unit 1)
@@ -3913,7 +3913,7 @@
 			(uuid "f9d3c4c1-2407-441c-8b82-1367a96c96a7")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR08")
 					(unit 1)
@@ -3947,7 +3947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RoyalBlue-nRF54L15-Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "RoyalBlue54L-Feather-Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 			(uuid "fd37bbc9-0dfe-4b47-b6d4-d37599a23eee")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "J2")
 					(unit 1)
@@ -4043,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RoyalBlue-nRF54L15-Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(property "Footprint" "RoyalBlue54L-Feather-Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -4118,7 +4118,7 @@
 			(uuid "bd94fd21-ea3a-40ee-b997-9c8e930f30de")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "J1")
 					(unit 1)
@@ -4184,7 +4184,7 @@
 			(uuid "94d47378-62cb-4fb8-aa43-91315f16dbd9")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "#PWR07")
 					(unit 1)
@@ -4264,7 +4264,7 @@
 			(uuid "8568685a-1a3f-433e-a5e8-aa1168fff8bd")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/0a43c989-a862-4ff1-8fb5-5f7c93f777a1"
 					(reference "J4")
 					(unit 1)

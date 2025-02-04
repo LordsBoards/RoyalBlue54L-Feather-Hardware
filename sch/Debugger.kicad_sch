@@ -5464,6 +5464,16 @@
 		)
 		(uuid "1bd1a7f7-62c3-4e6d-9334-7cc98944fba3")
 	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d86c53e-1b59-4f12-82a1-997089125816")
+	)
 	(bus
 		(pts
 			(xy 66.04 120.65) (xy 66.04 123.19)
@@ -5493,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "22aeb130-a657-47be-b4ce-ebd0ff6635c5")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c18c84-0380-42c3-9601-57e3fa485555")
 	)
 	(wire
 		(pts
@@ -5686,6 +5706,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 123.19) (xy 129.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6245916b-f20c-4a06-9750-11762b94e599")
+	)
+	(wire
+		(pts
 			(xy 157.48 48.26) (xy 160.02 48.26)
 		)
 		(stroke
@@ -5746,6 +5776,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 123.19) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ceeea5-494c-4dce-ab83-db3247c9f4be")
+	)
+	(wire
+		(pts
 			(xy 105.41 113.03) (xy 127 113.03)
 		)
 		(stroke
@@ -5793,6 +5833,16 @@
 			(type default)
 		)
 		(uuid "85c89f14-06a2-499f-826e-63676a2ac945")
+	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c29f549-ae1d-4966-942e-61962e1c8537")
 	)
 	(wire
 		(pts
@@ -5966,6 +6016,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 123.19) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5789e4-7caa-406d-bdf2-210bc4985629")
+	)
+	(wire
+		(pts
 			(xy 210.82 71.12) (xy 212.09 71.12)
 		)
 		(stroke
@@ -5993,6 +6053,16 @@
 			(type default)
 		)
 		(uuid "d27f3481-6dcc-4856-9798-a4c5425ce980")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bb1573-18cd-4231-a02c-ea983c25fbe7")
 	)
 	(wire
 		(pts
@@ -6370,21 +6440,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 91.44 35.56) (xy 91.44 45.72) (xy 97.79 45.72) (xy 100.33 45.72) (xy 100.33 43.18) (xy 100.33 35.56)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 213a62d1-7fd4-47ee-bf22-6b57d6a7f85e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 157.48 45.72) (xy 157.48 52.07) (xy 160.02 52.07) (xy 160.02 45.72)
 			)
 			(stroke
@@ -6394,7 +6449,22 @@
 			(fill
 				(type none)
 			)
-			(uuid be7d9469-2386-4cc6-b0f8-00c45ce40178)
+			(uuid 32ec6388-44fe-4f2d-93a0-607629dee12c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 91.44 35.56) (xy 91.44 45.72) (xy 97.79 45.72) (xy 100.33 45.72) (xy 100.33 43.18) (xy 100.33 35.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a1245400-629a-46e3-beb3-3e0a436b5a2d)
 		)
 	)
 	(netclass_flag ""
@@ -6515,7 +6585,7 @@
 			(uuid "b1d8e1e0-284d-4586-a57c-c6d15dab489e")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C24")
 					(unit 1)
@@ -6581,7 +6651,7 @@
 			(uuid "06e8e41a-aab8-447a-a92e-4f6c538aeb3e")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR027")
 					(unit 1)
@@ -6705,7 +6775,7 @@
 			(uuid "51fdb270-1a41-431a-ae9a-0aac6953e22b")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "U6")
 					(unit 1)
@@ -6784,7 +6854,7 @@
 			(uuid "9064f6fa-e796-4af6-bc38-f80f144d31c2")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C19")
 					(unit 1)
@@ -6847,7 +6917,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#SYM6")
 					(unit 1)
@@ -6926,7 +6996,7 @@
 			(uuid "22986665-2364-4fbf-94e0-378c3acd3776")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C15")
 					(unit 1)
@@ -6992,7 +7062,7 @@
 			(uuid "054dabe4-251a-4c74-9fd7-c899fae32571")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR025")
 					(unit 1)
@@ -7059,7 +7129,7 @@
 			(uuid "f53717a5-8621-42e8-895f-bc57caf9c2e6")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR03")
 					(unit 1)
@@ -7255,7 +7325,7 @@
 			(uuid "ad8ae0cd-1c61-4f25-9a41-d2e36efce7c5")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "U5")
 					(unit 1)
@@ -7321,7 +7391,7 @@
 			(uuid "be4e9d8a-0892-40ab-aaf8-0eb099002969")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR023")
 					(unit 1)
@@ -7400,7 +7470,7 @@
 			(uuid "92ffe0cf-a752-415e-ac5a-1c6333282224")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "R1")
 					(unit 1)
@@ -7479,7 +7549,7 @@
 			(uuid "13a3a2cb-3187-4df3-8b46-9116f0c3ead2")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C20")
 					(unit 1)
@@ -7562,7 +7632,7 @@
 			(uuid "07a08e98-18ce-460e-b1d6-11a40425dbe5")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "J8")
 					(unit 1)
@@ -7629,7 +7699,7 @@
 			(uuid "fc887d51-a398-42e1-8d69-0c9cc24e5df8")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR040")
 					(unit 1)
@@ -7707,7 +7777,7 @@
 			(uuid "3b19464c-8942-4d12-a510-3f60ccc5cf80")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C10")
 					(unit 1)
@@ -7774,7 +7844,7 @@
 			(uuid "7c229672-eda4-4b59-b4b2-d8262cb1dba4")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR049")
 					(unit 1)
@@ -7859,7 +7929,7 @@
 			(uuid "5cb41736-139d-4c7e-8a6f-5a5d2c3b8e7f")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "Y2")
 					(unit 1)
@@ -7938,7 +8008,7 @@
 			(uuid "3122534a-5773-4f34-926f-a83d07cd4be7")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C17")
 					(unit 1)
@@ -8025,7 +8095,7 @@
 			(uuid "03571ae2-08f6-473a-b589-fc608b0489fb")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "U3")
 					(unit 1)
@@ -8104,7 +8174,7 @@
 			(uuid "885616a6-c089-46a8-89d0-120be5b22814")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C7")
 					(unit 1)
@@ -8226,7 +8296,7 @@
 			(uuid "d2567a1e-e6ad-4034-9dd4-be2f987b1f21")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "J3")
 					(unit 1)
@@ -8292,7 +8362,7 @@
 			(uuid "ffa8abce-8f89-4d7c-aa0b-523af6998278")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR047")
 					(unit 1)
@@ -8358,7 +8428,7 @@
 			(uuid "e6db47a9-0d70-4b96-8924-fd9fd247afc7")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR024")
 					(unit 1)
@@ -8425,7 +8495,7 @@
 			(uuid "f50314d0-7aa1-4b63-a585-4398b739350f")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR012")
 					(unit 1)
@@ -8491,7 +8561,7 @@
 			(uuid "c8c9dc39-1978-4d2f-9250-4151111f7f94")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR029")
 					(unit 1)
@@ -8557,7 +8627,7 @@
 			(uuid "96887faa-c195-4608-97b4-e8826fc74b42")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR044")
 					(unit 1)
@@ -8635,7 +8705,7 @@
 			(uuid "b90ba457-38af-4839-8871-12a91a794c9a")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C18")
 					(unit 1)
@@ -8701,7 +8771,7 @@
 			(uuid "29aba79e-5cdd-4b9c-8c52-98fc94200a9c")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR036")
 					(unit 1)
@@ -8779,7 +8849,7 @@
 			(uuid "3a67bb60-d08d-4e0a-a9da-d9ed3a282690")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C23")
 					(unit 1)
@@ -8857,7 +8927,7 @@
 			(uuid "5714ec04-f1a6-4c2f-a009-ce43aa33d890")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C22")
 					(unit 1)
@@ -8936,7 +9006,7 @@
 			(uuid "a6868cec-2d2b-4ef0-a39c-051be5431994")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C21")
 					(unit 1)
@@ -9003,7 +9073,7 @@
 			(uuid "113f49a7-2c0b-49a1-a79f-ff9ea74cf2d1")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR013")
 					(unit 1)
@@ -9067,7 +9137,7 @@
 			)
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#SYM5")
 					(unit 1)
@@ -9133,7 +9203,7 @@
 			(uuid "8897d425-91f7-4c3e-b917-418de1f38d15")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR028")
 					(unit 1)
@@ -9212,7 +9282,7 @@
 			(uuid "15990cd9-6144-4c86-9831-cb352f02a85b")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C25")
 					(unit 1)
@@ -9278,7 +9348,7 @@
 			(uuid "5b7b29d8-0152-4608-a373-bae1f97a7b5a")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "#PWR042")
 					(unit 1)
@@ -9357,9 +9427,88 @@
 			(uuid "b45a4a1e-4697-45a4-853c-710aece88fc3")
 		)
 		(instances
-			(project "RoyalBlue-nRF54L15"
+			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 138.43 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fedb7c5f-3ca7-4773-b02f-181679f19f0f")
+		(property "Reference" "R8"
+			(at 140.97 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100kR"
+			(at 140.97 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3109f903-7baf-492d-ab2b-35673d2f1d9f")
+		)
+		(pin "2"
+			(uuid "6f4ea3ab-a2ba-4a06-b261-d7fcb0726958")
+		)
+		(instances
+			(project "RoyalBlue54L-Feather"
+				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/bee6e003-c9d0-4aff-a9a9-7e1c876b28cb"
+					(reference "R8")
 					(unit 1)
 				)
 			)

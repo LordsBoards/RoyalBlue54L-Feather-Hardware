@@ -556,7 +556,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RoyalBlue-nRF54L15.kicad_pro",
+    "filename": "RoyalBlue54L-Feather.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -626,7 +626,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "RoyalBlue-nRF54L15.step",
+      "step": "RoyalBlue54L-Feather.step",
       "svg": "",
       "vrml": ""
     },
