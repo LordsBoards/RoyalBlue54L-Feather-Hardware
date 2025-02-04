@@ -603,6 +603,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Debugger/D+": [
+        "USB_DIFF"
+      ],
+      "/Debugger/D-": [
+        "USB_DIFF"
+      ],
       "/USB/D+": [
         "USB_DIFF"
       ],
@@ -764,11 +770,19 @@
     ],
     [
       "bee6e003-c9d0-4aff-a9a9-7e1c876b28cb",
-      "USB"
+      "Debugger"
     ],
     [
       "79d06a01-15ae-4276-9cac-debde3b18a91",
       "nPM1300"
+    ],
+    [
+      "b280f472-530c-47a8-bd61-35bd1befbf04",
+      "nRF54L15"
+    ],
+    [
+      "0a43c989-a862-4ff1-8fb5-5f7c93f777a1",
+      "Connectors"
     ]
   ],
   "text_variables": {}
