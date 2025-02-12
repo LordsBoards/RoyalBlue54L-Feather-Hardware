@@ -3935,6 +3935,12 @@
 		(uuid "6e3da4c0-7344-4ee4-8ed4-b77ae4b5ffd2")
 	)
 	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af90d59-2603-49a0-bf30-f94d10af999d")
+	)
+	(junction
 		(at 194.31 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5385,6 +5391,72 @@
 			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/79d06a01-15ae-4276-9cac-debde3b18a91"
 					(reference "#SYM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 179.07 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c494467-b231-4010-aac6-a32292331859")
+		(property "Reference" "#PWR053"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22faac76-cca5-4da5-955c-a5fd2cc36b07")
+		)
+		(instances
+			(project "RoyalBlue54L-Feather"
+				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/79d06a01-15ae-4276-9cac-debde3b18a91"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

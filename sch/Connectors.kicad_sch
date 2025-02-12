@@ -3590,7 +3590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VSYS"
 			(at 138.43 88.9 0)
 			(effects
 				(font
