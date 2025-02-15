@@ -58,76 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|71620000|43350000|095a7644-e57b-44a5-97d1-e02b75614eb2|0b849fe7-825a-4dc0-9d26-bae6ef77059c",
-          ""
-        ],
-        [
-          "clearance|71620000|44050000|419e93b6-4de0-4f86-8ffa-53c7e1873c28|0b849fe7-825a-4dc0-9d26-bae6ef77059c",
-          ""
-        ],
-        [
-          "clearance|71620000|44350000|419e93b6-4de0-4f86-8ffa-53c7e1873c28|99e8f8c0-c890-4592-a6cf-a9ac9d286ff7",
-          ""
-        ],
-        [
-          "clearance|71620000|44850000|99e8f8c0-c890-4592-a6cf-a9ac9d286ff7|640dd2ef-4893-492d-800d-5449a3d79a8b",
-          ""
-        ],
-        [
-          "clearance|71620000|45550000|ed11d40c-a72d-4a35-98bf-1694da27a758|640dd2ef-4893-492d-800d-5449a3d79a8b",
-          ""
-        ],
-        [
-          "clearance|74587500|43855000|10ba4184-4282-4a91-841c-7f93e17e9398|5a44dc9e-1c6b-4458-9071-6c455039c2d0",
-          ""
-        ],
-        [
-          "clearance|74587500|44530000|a48d7430-851c-46bc-8262-da2e4e5607cc|d542105e-c86d-4eee-9ba3-11ea0efff774",
-          ""
-        ],
-        [
-          "clearance|74850000|44942500|9b874f4a-160e-4ee4-86fc-0ac1c6fd260a|a48d7430-851c-46bc-8262-da2e4e5607cc",
-          ""
-        ],
-        [
-          "clearance|75087500|44030000|10ba4184-4282-4a91-841c-7f93e17e9398|a48d7430-851c-46bc-8262-da2e4e5607cc",
-          ""
-        ],
-        [
-          "clearance|75087500|44530000|a48d7430-851c-46bc-8262-da2e4e5607cc|926dc21f-c5ad-4f2a-b497-a9df55c39ea4",
-          ""
-        ],
-        [
-          "clearance|84757500|44812500|4a47c0be-d335-469a-bad9-7a728c3a4de0|9a23b59f-9e10-4eff-8f3a-1e576975e003",
-          ""
-        ],
-        [
-          "clearance|85157500|44812500|d761f0d0-7203-4bce-9c37-da4991ba1fd6|4a47c0be-d335-469a-bad9-7a728c3a4de0",
-          ""
-        ],
-        [
-          "clearance|85557500|44812500|f29753d4-da02-4dbd-b50a-cbeb91bb24c2|d761f0d0-7203-4bce-9c37-da4991ba1fd6",
-          ""
-        ],
-        [
-          "clearance|85620000|44812500|328ed72a-4f2b-4b45-8838-ee128183cb5e|d761f0d0-7203-4bce-9c37-da4991ba1fd6",
-          ""
-        ],
-        [
-          "courtyards_overlap|71035000|34336268|a03d9496-1ee4-485a-ad59-a5ef1be43a46|cfa37584-bba0-4659-8a04-91f56bdcee0b",
-          "Acceptable margin for Feather boards."
-        ],
-        [
-          "courtyards_overlap|71035000|39135000|4f7c2d6e-214e-4baa-a3f3-3f0c51276db6|cfa37584-bba0-4659-8a04-91f56bdcee0b",
-          "Acceptable margin for Feather boards."
-        ],
-        [
-          "hole_clearance|74587500|43855000|10ba4184-4282-4a91-841c-7f93e17e9398|5a44dc9e-1c6b-4458-9071-6c455039c2d0",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -583,7 +514,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.125,
         "line_style": 0,
         "microvia_diameter": 0.3,

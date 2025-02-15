@@ -6442,9 +6442,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33788435-100c-4faa-9388-ed4ef76d1215")
 		(property "Reference" "R3"
 			(at 233.68 96.5199 0)
@@ -7229,9 +7229,9 @@
 		(at 238.76 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b0eb701-6442-4577-a416-b11a7ee65f9c")
 		(property "Reference" "R2"

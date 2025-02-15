@@ -8,4 +8,5 @@
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/lib/marbastlib/footprints/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf54-modules")(type "KiCad")(uri "${KIPRJMOD}/lib/nordic-lib-kicad/footprints/nordic-lib-kicad-nrf54-modules.pretty")(options "")(descr ""))
   (lib (name "LordsBoards-Symbol")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/LordsBoards-Symbol.pretty")(options "")(descr ""))
+  (lib (name "RoyalBlue54L-Module")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/RoyalBlue54L-Module.pretty")(options "")(descr ""))
 )
