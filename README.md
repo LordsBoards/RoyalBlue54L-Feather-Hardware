@@ -52,6 +52,12 @@ This repository contains the hardware design files for the RoyalBlue54L Feather.
 * Manufacturing files
 * Documentation
 
+## Pinout
+
+<p align="center">
+    <img src="img/pinout.png" alt="RoyalBlue54L Pinout">
+</p>
+
 ## Related Repositories
 
 * [Zephyr Board Support](https://github.com/LordsBoards/RoyalBlue-nRF54L15-Zephyr-Boards)
