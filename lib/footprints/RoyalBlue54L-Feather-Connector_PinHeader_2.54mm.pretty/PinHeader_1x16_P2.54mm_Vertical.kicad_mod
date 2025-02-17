@@ -201,9 +201,9 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0)
+		(roundrect_rratio 0.25)
 		(chamfer_ratio 0.25)
-		(chamfer top_left top_right bottom_left bottom_right)
+		(chamfer top_right bottom_left bottom_right)
 		(uuid "d19bdcfd-afb4-457a-8dbd-dc961ea4d1dc")
 	)
 	(pad "3" thru_hole rect
@@ -451,15 +451,4 @@
 		(uuid "260ba1d8-a974-44fa-be22-28558d2a39c2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x16_P2.54mm_Vertical.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

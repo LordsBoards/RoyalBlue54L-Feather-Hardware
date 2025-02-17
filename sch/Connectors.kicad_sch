@@ -2288,16 +2288,14 @@
 		(uuid "fdf1bacc-04c2-493c-a795-b0ad97798d1a")
 	)
 	(junction
-		(at 68.58 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f42dc6e-ab96-4924-a259-a0399d27f849")
-	)
-	(junction
 		(at 176.53 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "589d3d2d-4e66-4499-8536-edcbe57a1dce")
+	)
+	(no_connect
+		(at 68.58 93.98)
+		(uuid "3edc10e4-eac3-4713-9ba8-0afebf56fb17")
 	)
 	(bus_entry
 		(at 144.78 116.84)
@@ -2828,16 +2826,6 @@
 			(type default)
 		)
 		(uuid "9034cf00-fa34-4c19-a919-1710e151f2c7")
-	)
-	(wire
-		(pts
-			(xy 68.58 91.44) (xy 68.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9692a009-54d6-4ee2-ada8-65a860a82078")
 	)
 	(wire
 		(pts
