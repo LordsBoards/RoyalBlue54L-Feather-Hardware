@@ -4187,12 +4187,6 @@
 		)
 	)
 	(junction
-		(at 237.49 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1808a0b9-9c26-4904-9e01-e6b60ee4e7d2")
-	)
-	(junction
 		(at 137.16 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4622,16 +4616,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 105.41) (xy 251.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16f68cc5-46e2-432c-8bdb-b02527c2e223")
-	)
-	(wire
-		(pts
 			(xy 251.46 57.15) (xy 250.19 57.15)
 		)
 		(stroke
@@ -4790,6 +4774,26 @@
 		)
 		(uuid "582cd8b4-3177-484a-a277-b941f17724cc")
 	)
+	(wire
+		(pts
+			(xy 250.19 102.87) (xy 251.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587f4f47-8de8-4408-a4ae-e6bdc0b7564b")
+	)
+	(wire
+		(pts
+			(xy 250.19 105.41) (xy 251.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5941ba20-f43c-4b75-a135-ff3273d625f7")
+	)
 	(bus
 		(pts
 			(xy 181.61 123.19) (xy 181.61 125.73)
@@ -4909,16 +4913,6 @@
 			(type default)
 		)
 		(uuid "92b62be0-c6a2-40d3-a3b2-367060f1e502")
-	)
-	(wire
-		(pts
-			(xy 238.76 102.87) (xy 251.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "985fcea6-97ec-4004-8f19-7578de950314")
 	)
 	(wire
 		(pts
@@ -5042,16 +5036,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 238.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c7fd9a-d400-494c-b721-e5cbc246cc07")
-	)
-	(wire
-		(pts
 			(xy 57.15 80.01) (xy 63.5 80.01)
 		)
 		(stroke
@@ -5152,16 +5136,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 105.41) (xy 236.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc60004-875d-4eec-9e85-5d21ae2aa5a8")
-	)
-	(wire
-		(pts
 			(xy 96.52 62.23) (xy 116.84 62.23)
 		)
 		(stroke
@@ -5232,16 +5206,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.25) (xy 237.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8e982f-1849-427a-8dd2-bf8309585d0d")
-	)
-	(wire
-		(pts
 			(xy 250.19 54.61) (xy 251.46 54.61)
 		)
 		(stroke
@@ -5289,16 +5253,6 @@
 			(type default)
 		)
 		(uuid "fe7fd6d3-4d6a-4a50-a2b5-61f432310294")
-	)
-	(wire
-		(pts
-			(xy 238.76 102.87) (xy 238.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef2ed1d-d095-47bc-a6ba-7855409a5fe3")
 	)
 	(label "UART_TRG.RX"
 		(at 250.19 87.63 180)
@@ -6437,85 +6391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 236.22 97.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "33788435-100c-4faa-9388-ed4ef76d1215")
-		(property "Reference" "R3"
-			(at 233.68 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kR"
-			(at 233.68 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 236.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 236.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 236.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c891a27-7266-4ffe-81bf-ce16444f8544")
-		)
-		(pin "2"
-			(uuid "ea614e9d-517f-4b22-8545-2c27fa61f49d")
-		)
-		(instances
-			(project "RoyalBlue54L-Feather"
-				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "nordic-lib-kicad-nrf54-modules:BM15x")
 		(at 137.16 90.17 0)
 		(unit 1)
@@ -7219,85 +7094,6 @@
 			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 238.76 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6b0eb701-6442-4577-a416-b11a7ee65f9c")
-		(property "Reference" "R2"
-			(at 241.3 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kR"
-			(at 241.3 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 238.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 238.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b1c6ca3-b242-493e-a01b-f8d0258ad1c9")
-		)
-		(pin "2"
-			(uuid "b74b4a1f-2525-4fee-b311-b526e17dc573")
-		)
-		(instances
-			(project "RoyalBlue54L-Feather"
-				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8428,72 +8224,6 @@
 			(project "RoyalBlue54L-Feather"
 				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 237.49 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0963477-9b5e-4ea8-80be-aef3e3e34bec")
-		(property "Reference" "#PWR026"
-			(at 237.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 237.49 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 237.49 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fb1107d-7e3c-4f43-b210-e7a444a42ce1")
-		)
-		(instances
-			(project "RoyalBlue54L-Feather"
-				(path "/ba76ff89-c129-45ae-a3c9-97538370856c/b280f472-530c-47a8-bd61-35bd1befbf04"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
