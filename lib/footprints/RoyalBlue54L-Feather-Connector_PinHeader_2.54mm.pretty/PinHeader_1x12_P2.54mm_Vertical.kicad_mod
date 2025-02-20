@@ -167,17 +167,6 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(uuid "2e16aca6-ae5b-4e05-8911-cbc27e20c7c6")
 	)
-	(pad "1" thru_hole roundrect
-		(at 0 0)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0)
-		(chamfer_ratio 0.25)
-		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "54718f7e-4dde-4c07-bc34-f000ebe4676b")
-	)
 	(pad "1" thru_hole rect
 		(at 1.27 0)
 		(size 1.7 1.7)
