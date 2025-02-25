@@ -5495,7 +5495,7 @@
 		(uuid "6b3de00d-1b49-472b-8526-9936906f4757")
 	)
 	(label "ANALOG.A1"
-		(at 116.84 69.85 180)
+		(at 116.84 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,7 +5765,7 @@
 		(uuid "e90dd2b2-5974-4733-81c2-efb6ab9bd682")
 	)
 	(label "ANALOG.A0"
-		(at 116.84 67.31 180)
+		(at 116.84 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6707,7 +6707,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x05"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5213747"
 			(at 76.2 63.5 0)
 			(effects
 				(font
