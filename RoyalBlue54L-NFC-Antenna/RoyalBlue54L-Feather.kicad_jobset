@@ -311,11 +311,11 @@
   "outputs": [
     {
       "description": "",
-      "id": "6ed2bb13-b735-4a07-aebb-30e3c5b90df8",
+      "id": "e439f194-92e3-48f3-8305-cb9aa516aafb",
       "only": [],
       "settings": {
         "format": "zip",
-        "output_path": "/home/hlord/Documents/LordsBoards/RoyalBlue54L-Feather/RoyalBlue54L-Feather-Hardware/${PROJECTNAME}_output.zip"
+        "output_path": "./${PROJECTNAME}_output.zip"
       },
       "type": "archive"
     }

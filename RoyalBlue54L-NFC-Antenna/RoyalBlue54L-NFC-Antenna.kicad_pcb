@@ -368,13 +368,13 @@
 	(footprint "LordsBoards-Symbol:LordsBoardsLogo_Small_Silk"
 		(layer "F.Cu")
 		(uuid "e97ea8ae-cf5a-42fa-bd24-3db393218501")
-		(at 153.1125 118.976103 180)
+		(at 152.725 114.38 180)
 		(property "Reference" "REF**"
 			(at 0 -0.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b70d6dfc-adbb-46a6-bb3b-7d10f9666039")
+			(uuid "a4d0d873-608e-47a5-9e49-b6c515ff16ef")
 			(effects
 				(font
 					(size 1 1)
@@ -387,7 +387,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b65b2ce-ca74-4122-adc7-f44d859e053a")
+			(uuid "744dad8e-b11e-455c-837f-28dc1df6d9a9")
 			(effects
 				(font
 					(size 1 1)
@@ -400,7 +400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84f02cbd-aaa7-4dc6-b925-e070f4bf0460")
+			(uuid "5b6fbb6e-b7d0-40cd-9531-62c230e5f8e2")
 			(effects
 				(font
 					(size 1 1)
@@ -413,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24ea2039-6c6c-45ed-9852-2b0702784f3b")
+			(uuid "05e27a8c-6888-4de9-a859-cb71720f83c7")
 			(effects
 				(font
 					(size 1 1)
